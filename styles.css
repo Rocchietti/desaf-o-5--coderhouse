@@ -54,6 +54,12 @@ main{
     justify-items: center;
     padding-left: 2px;
 }
+.seccion1 a {
+    transition: all 2s;
+}
+.seccion1 a:hover{
+    padding: 5px; background-color: greenyellow;
+}
 .seccion1 img{
     max-width: 50%;
 }
