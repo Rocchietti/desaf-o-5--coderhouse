@@ -11,7 +11,7 @@
 }
 header{
     grid-area: header;
-    background-color: greenyellow;
+    background-image: linear-gradient(beige, greenyellow, bisque)  ; 
     font-family: Pacifico, cursive;
     text-align: center;
 }
@@ -29,6 +29,10 @@ ul{
     font-family: maven pro, sans-serif;
     list-style-type: none;
     padding: 5px;
+    transition: all 3s;
+}
+.naveg:hover{
+    padding: 5px; background-color: greenyellow;
 }
 main{
     grid-area: main;
